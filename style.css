@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+#girl {
+  font-size: 120px;
+  transition: 1s;
+}
+
+#text {
+  font-size: 30px;
+  margin: 15px;
+  color: white;
+}
+
+button {
+  padding: 15px 35px;
+  font-size: 22px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#yesBtn {
+  background: red;
+  color: white;
+}
+
+#noBtn {
+  background: white;
+  color: black;
+  position: absolute;
+}
+
+#cutePrompts {
+  font-size: 24px;
+  color: yellow;
+  margin-top: 20px;
+}
